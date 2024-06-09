@@ -1,0 +1,18 @@
+BEGIN
+        sum := 0;
+
+        i := 1;
+
+        $loop;
+        IF i = 10 THEN
+            GOTO loope
+        ELSE
+            sum := sum + i;
+            i := i + 1;
+            GOTO loop
+        FI;
+
+        $loope;
+        WRITE(sum)
+END
+

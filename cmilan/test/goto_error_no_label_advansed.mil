@@ -1,0 +1,10 @@
+BEGIN
+        i := 1;
+        $fake;
+        GOTO aboba;
+        i := 2;
+        $aboba;
+        GOTO test;
+        WRITE(i)
+END
+

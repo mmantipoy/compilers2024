@@ -1,0 +1,8 @@
+BEGIN
+        i := 1;
+        GOTO ABOBA;
+        i := 2;
+        $aboba;
+        WRITE(i)
+END
+

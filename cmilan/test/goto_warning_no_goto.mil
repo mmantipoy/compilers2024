@@ -1,0 +1,7 @@
+BEGIN
+        i := 1;
+        $ABOBA;
+        i := 2;
+        WRITE(i)
+END
+
